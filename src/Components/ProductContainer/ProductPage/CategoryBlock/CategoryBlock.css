@@ -1,0 +1,43 @@
+.add-category-popUp {
+	display: none;
+	width: 350px;
+	text-align: center;
+	position: fixed;
+	border-radius: 8px;
+	left: 50%;
+	padding: 20px;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #394f62;
+	box-shadow: 1px 1px 4px 0 #455c71;
+	z-index: 5;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.add-category-popUp input {
+	margin: 12px auto;
+}
+
+.fa-times-circle {
+	position: absolute;
+	top: 5%;
+	right: 3%;
+	color: white;
+	cursor: pointer;
+}
+
+.overlay {
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 2;
+	cursor: pointer;
+}
